@@ -1,6 +1,5 @@
 export function createDOM(string) {
   const parser = new DOMParser();
-  const doc = parser.parseFromString(stringContainingHTMLSource, "text/html");
+  const HTML = parser.parseFromString(string, "text/html");
   return HTML.body.firstChild;
-  debugger;
 }

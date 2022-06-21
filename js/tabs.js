@@ -1,5 +1,7 @@
 const $tabContainer = document.querySelector("#tabs");
 const $tabList = $tabContainer.querySelectorAll(".tab");
+// const $tabSummary = document.querySelector("#dayWeather-summary");
+// const $tabSummaryDay = $tabSummary.querySelector
 
 const today = new Date();
 let weekday = today.getDay();

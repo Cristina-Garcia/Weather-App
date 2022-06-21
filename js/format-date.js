@@ -13,7 +13,7 @@ export function formatTemp(value) {
 }
 
 export function formatWeekList(rawData) {
-  // const weekList =[[],[],[],[],[]]
+  // const weekList =[[],[],[],[],[]]run
   let dayList = [];
   const weekList = [];
   rawData.forEach((item, index) => {
